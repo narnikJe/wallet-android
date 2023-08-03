@@ -60,3 +60,5 @@ case "`uname`" in
     darwin=true
     ;;
   MINGW* )
+    msys=true
+    ;;
