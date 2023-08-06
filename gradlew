@@ -66,3 +66,5 @@ case "`uname`" in
     nonstop=true
     ;;
 esac
+
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
