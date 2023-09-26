@@ -157,3 +157,5 @@ save ( ) {
     echo " "
 }
 APP_ARGS=$(save "$@")
+
+# Collect all arguments for the java command, following the shell quoting and substitution rules
