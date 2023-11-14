@@ -1,2 +1,3 @@
 task allIntegrationTests(type: Test) {
     description = 'Runs the integration tests.'
+    group = 'verification'
