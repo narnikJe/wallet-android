@@ -3,3 +3,5 @@ task allIntegrationTests(type: Test) {
     group = 'verification'
     println 'task: allIntegrationTests'
 }
+
+allIntegrationTests.dependsOn {
