@@ -6,3 +6,4 @@ task allIntegrationTests(type: Test) {
 
 allIntegrationTests.dependsOn {
     tasks.findAll {
+        task -> task.name.startsWith('integrationTest')
