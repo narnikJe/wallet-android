@@ -18,3 +18,5 @@ if (System.getenv()['MYCELIUM_BUILD_SYSTEM'] == 'server') {
     include 'wallet-android-modularization-tools:modularization-lib'
     include 'mbw'
     include 'trezor'
+    include 'libs:nordpol'
+    include 'btchip'
