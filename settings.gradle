@@ -20,3 +20,5 @@ if (System.getenv()['MYCELIUM_BUILD_SYSTEM'] == 'server') {
     include 'trezor'
     include 'libs:nordpol'
     include 'btchip'
+    include 'LVL'
+    include 'backuputil'
