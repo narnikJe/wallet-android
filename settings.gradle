@@ -22,3 +22,4 @@ if (System.getenv()['MYCELIUM_BUILD_SYSTEM'] == 'server') {
     include 'btchip'
     include 'LVL'
     include 'backuputil'
+    include 'wallet-console'
