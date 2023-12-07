@@ -23,3 +23,4 @@ if (System.getenv()['MYCELIUM_BUILD_SYSTEM'] == 'server') {
     include 'LVL'
     include 'backuputil'
     include 'wallet-console'
+    include 'androidfioserializationprovider'
